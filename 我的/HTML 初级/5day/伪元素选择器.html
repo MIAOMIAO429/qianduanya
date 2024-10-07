@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 300px;
+            height: 300px;
+            background-color: chartreuse;
+        }
+        div::before{
+            content: "小丑";
+            
+            background-color: #ff0000;
+            /* display: inline-block; */
+            
+
+
+        }
+
+        div::after{
+            content: "Joke";
+            background-color: #ff0000;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        他不会回头
+    </div>
+</body>
+</html>
